@@ -1,0 +1,40 @@
+#navbar{
+    text-align:center;
+    
+}
+
+#navbar li{
+    display: inline-block;
+    border: 2px 
+        ``1solid black;
+    
+}
+
+#navbar h2{
+    color: gray;
+    font-family: sans-serif
+    
+}
+
+#navbar Ul{
+        font-family: sans-serif;
+}
+
+#navbar h1{ 
+        color: red;
+        font-family: sans-serif
+}
+
+#navbar h2{ 
+        color: gray;
+        font-family: sans-serif
+}
+
+#navbar p{ 
+        color: black;
+        font-family: sans-serif
+        display: inline-block;
+        border: 3px solid red;
+        padding-left: .3cm;
+        background: gray;
+}
