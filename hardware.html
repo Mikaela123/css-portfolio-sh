@@ -1,16 +1,248 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> </title>
+        <title> Hardware</title>
         <style>
+        #navbar{
+        text-align:center;
+}
+#navbar li{
+    display:inline-block;
+    border: 3px black solid;
+    font-size: 20px;
+    padding: 3px;
+    color: white;
+    transition: .1s all linear;
+}
+#navbar a{ 
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px
+    text-decoration: none;
+    transition: .5s all linear;
+}
+#navbar li:hover{
+    font-size:25px;
+}
+.pic {
+    transition: .5s all linear;
+}
+.pic:hover {
+    width: 270px;
+}
            h1 {
-               font-family: sans-
+               color: red;
+               font-family: sans-serif;
+               text-align: center;
+               border-bottom: 2px red solid;
+               margin-left: 400px;
+               margin-right: 400px;
            }
-            
+           h2 {
+               font-family: sans-serif;
+               text-align: center;
+           }
+           body {
+               background-color: gray;
+           }
+           p {
+               font-family: sans-serif;
+               text-align: center;
+               color: white;
+           }
+           img {
+               border: 3px solid red;
+           }
+           #mb-h2 {
+               position: relative;
+               top: 35px;
+           }
+           #mother {
+               position: relative;
+               left: 950px;
+               bottom: 25px;
+           }
+           #motherboard {
+               position: relative;
+               bottom: 190px;
+           }
+           
+           #cpu-h2 {
+               position: relative;
+               bottom: 125px;
+               border-top: 4px blue dotted;
+           }
+           #cpu {
+               position: relative;
+               bottom: 370px;
+           }
+           #cpu-pic {
+               position: relative;
+               bottom: 135px;
+               left: 120px;
+           }
+           #ram-h2 {
+               position: relative;
+               bottom: 225px;
+               border-top: 4px blue dotted;
+           }
+           #ram-pic {
+               position: relative;
+               bottom: 235px;
+               left: 950px;
+           }
+           #ram {
+               position: relative;
+               bottom: 430px;
+           }
+           #hd-h2 {
+               position: relative;
+               bottom: 320px;
+               border-top: 4px blue dotted;
+           }
+           #hard-drive-pic {
+               position: relative;
+               bottom: 330px;
+               left: 130px;
+           }
+           #hard-drive {
+               position: relative;
+               bottom: 605px;
+           }
+           #c-h2 {
+               position: relative;
+               bottom: 425px;
+               border-top: 4px blue dotted;
+           }
+           #communicate-pic {
+               position: relative;
+               bottom: 445px;
+               left: 950px;
+           }
+           #communicate {
+               position: relative;
+               bottom: 650px;
+           }
+           #key-h2 {
+               position: relative;
+               bottom: 540px;
+               border-top: 4px blue dotted;
+           }
+           #keyboard-pic {
+               position: relative;
+               bottom: 550px;
+               left: 120px;
+           }
+           #keyboard {
+               position: relative;
+               bottom: 675px;
+           }
+           #monitor-h2 {
+               position: relative;
+               bottom: 575px;
+               border-top: 4px blue dotted;
+           }
+           #monitor-pic {
+               position: relative;
+               bottom: 600px;
+               left: 950px;
+           }
+           #monitor {
+               position: relative;
+               bottom: 860px;
+           }
+           #mouse-h2 {
+               position: relative;
+               bottom: 675px;
+               border-top: 4px blue dotted;
+           }
+           #mouse-pic {
+               position: relative;
+               bottom: 700px;
+               left: 130px;
+           }
+           #mouse {
+               position: relative;
+               bottom: 950px;
+           }
         </style>
     </head>
     <body>
+        <ul id="navbar">
+            <li> <a href="index.html">Home</a></li>
+            <li> <a href="hardware.html">Hardware</a></li>
+        </ul>
+        <h1> Hardware</h1>
+        
+        <h2 id="mb-h2"> Motherboard</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d7/PSX-SCPH-5001-Motherboard.jpg" alt="motherboard" width="250px" id="mother" class="pic">
+        <p id="motherboard"> The motherboard is a circuit board that contains all 
+        the other parts of the<br>computer. It is located in the inside
+        of the computer. The motherboard is in<br>charge of holding the
+        CPU, RAM, and all other computer hardware<br> components. 
+        Through this, each component is able to communicate with<br> one
+        another because they are all connected and apart of the 
+        motherboard.</p>
+        
+        <h2 id="cpu-h2"> CPU</h2>
+        <img src="http://www.technogog.com/wp-content/uploads/2009/10/i7.jpg" alt="cpu" width="250px" id="cpu-pic" class="pic">
+        <p id="cpu"> The Central Processing Unit, otherwise known as the CPU 
+        is considered<br> the "brains of a computer." The CPU is the 
+        piece of hardware that carries<br> out the instructions of 
+        a computer program. This process begins when the<br> CPU receives 
+        information from the RAM and the CPU outputs the<br> commands on
+        to the computer or hardware.</p>
+        
+        <h2 id="ram-h2"> RAM</h2>
+        <img src="http://www.wpclipart.com/computer/hardware/memory/ddr_ram.png" alt="ram" width="250px" id="ram-pic" class="pic">
+        <p id="ram"> Where the CPU is considered the "brain" of the computerand the 
+        the RAM<br>is the "memory." A random access memory (RAM) is a 
+        type of memory<br> storage that allows memory to be read through
+        the computer. The RAM is a <br>place in a computer where current
+        used data is kept so that the computer's<br>processor can 
+        quickly access it. </p>
+        
+        <h2 id="hd-h2"> Hard Drive</h2>
+        <img src="http://www.bestbuy.ca/multimedia/Products/500x500/102/10278/10278366.jpg" alt="hard drive" width="250px" id="hard-drive-pic" class="pic">
+        <p id="hard-drive"> The hard drive is the computer's memory storage. 
+        Although the hard drive<br>is responsible to hold your 
+        documents, pictures, music, and videos. They<br>hold your 
+        programs, files, preferences, and even your operating system.<br> 
+        The unfortunate part of your hard drive holding all your 
+        information, is that if<br>it crashes you can lose all your 
+        data.</p>
+        
+        <h2 id="c-h2"> How do they Commmunicate</h2>
+        <img src="http://anthonytietjen.web44.net/wp-content/uploads/2009/08/img_0198_resized.jpg" alt="how all the components communicate" width="250px" id="communicate-pic" class="pic">
+        <p id="communicate"> All the components of the computer communicate with each 
+        other through<br>the motherboard. They send electrical signals to 
+        each other through the <br>wires that connect them to the 
+        motherboard. The RAM of the computer can<br>store current used 
+        data so that the computer processor so the CPU can<br>access it 
+        easily. The CPU then receives the instructions from the RAM, 
+        and<br>sends back the results to output the commands. </p>
+        
+        <h2 id="key-h2"> Keyboard</h2>
+        <img src="http://cdn.osxdaily.com/wp-content/uploads/2011/12/mac-keyboard.jpg" alt="computer keyboard" width="250px" id="keyboard-pic" class="pic">
+        <p id="keyboard"> The keyboard is an instrument with keys that consist of
+        letters, numbers,<br>and punctuation which allows you to input 
+        your information into the<br> computer.</p>
+        
+        <h2 id="monitor-h2"> Monitor</h2>
+        <img src="http://images.clipartpanda.com/computer-monitor-images-Apple-Display.jpg" alt="computer monitor" width="250px" id="monitor-pic" class="pic">
+        <p id="monitor"> The monitor of a computer is the display device that 
+        shows the graphical<br>information that was commanded. The 
+        monitor is connected to the<br>motherboard where all the 
+        components communicate with each other to<br>output the 
+        commands onto the screen of the monitor.</p>
+        
+        <h2  id="mouse-h2"> Mouse</h2>
+        <img src="http://cdn.appstorm.net/mac.appstorm.net/files/2009/11/lasertracking_20091020.jpg" alt="computer mouse" width="250px" id="mouse-pic" class="pic">
+        <p id="mouse"> The mouse is a usually small device used to help the 
+        user interact with the<br> computer. Through the use of a mouse 
+        you can move the device and the <br>monitor mirrors your 
+        movements onto the computer. The mouse is used to <br>select 
+        items on the monitor as well.</p>
 
     </body>
-    <h1> Hardware </h1>
 </html>

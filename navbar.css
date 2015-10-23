@@ -1,40 +1,21 @@
 #navbar{
     text-align:center;
-    
 }
-
 #navbar li{
-    display: inline-block;
-    border: 2px 
-        ``1solid black;
-    
+    display:inline-block;
+    border: 3px black solid;
+    font-size: 20px;
+    padding: 3px;
+    color: white;
+    transition: .1s all linear;
 }
-
-#navbar h2{
-    color: gray;
-    font-family: sans-serif
-    
+#navbar a{ 
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px
+    text-decoration: none;
+    transition: .5s all linear;
 }
-
-#navbar Ul{
-        font-family: sans-serif;
-}
-
-#navbar h1{ 
-        color: red;
-        font-family: sans-serif
-}
-
-#navbar h2{ 
-        color: gray;
-        font-family: sans-serif
-}
-
-#navbar p{ 
-        color: black;
-        font-family: sans-serif
-        display: inline-block;
-        border: 3px solid red;
-        padding-left: .3cm;
-        background: gray;
+#navbar li:hover{
+    font-size:25px;
 }
