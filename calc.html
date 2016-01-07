@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="index.css">
-	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="calc.css">
+	<title>Calculator</title>
 </head>
-<body>
+<body id="body">
+    <h1> Welcome to My Calculator!!!</h1>
     
 <input type ="text" name="input1" style="width:50px;" id="input1">
     <select id="dropdown">
@@ -12,14 +13,17 @@
         <option value="-">-</option>
         <option value="x">x</option>
         <option value="/">/</option>
-        <option value="pow">pow</option>
-        <option value="pow">sqrt</option>
+        <option value="sqrt">sqrt</option>
+        <option value="^">^</option>
+        
     </select>
     <input type ="text" name="input2" style="width:50px;" id="input2">
     <input type="button" value="Calculate" id="submitButton" />
 
-    <p>The answer is: <span id="display"></span></p>
+    <p id="answer">The answer is: <span id="display"></span></p>
 <script src="calc.js" ></script>
+
+<img src="http://friozinhogostoso.com/wp-content/uploads/2015/06/cacular-btus.png" alt="Black calculator" width="225px" id="blackcalc">
 
 </body>
 </html>
