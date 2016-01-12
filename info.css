@@ -1,0 +1,45 @@
+body {
+    background-color: gray;
+}
+
+h1 {
+    border-bottom: solid;  
+    margin-left: 400px;
+    margin-right: 400px;
+    color: red;
+    font-family: sans-serif;
+    text-align:center;
+}
+
+h2 {
+    font-family: sans-serif;
+    color: white;
+}
+
+
+#bahamaspic {
+    position: relative;
+}
+
+#jerusalempic {
+    position: relative;
+    bottom: 295px;
+    left: 380px;
+}
+
+#barcelonapic {
+    position: relative;
+    bottom: 885px;
+    left: 760px;
+}
+
+#greecepic {
+    position: relative;
+    bottom: 885px;
+}
+
+#newyorkpic {
+    position: relative;
+    bottom: 306px;
+    left: 380px;
+}
