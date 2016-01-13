@@ -16,30 +16,33 @@ h2 {
     color: white;
 }
 
-
-#bahamaspic {
-    position: relative;
+img {
+    transition: .5s all linear;
+    border: solid black;
 }
-
-#jerusalempic {
-    position: relative;
-    bottom: 295px;
-    left: 380px;
-}
-
-#barcelonapic {
-    position: relative;
-    bottom: 885px;
-    left: 760px;
+img:hover {
+    width: 300px;
+    height: 225px;
 }
 
 #greecepic {
     position: relative;
-    bottom: 885px;
+}
+
+#israelpic {
+    position: relative;
+    bottom: 255px;
+    left: 300px;
+}
+
+#barcelonapic {
+    position: relative;
+    bottom: 756px;
+    left: 600px;
 }
 
 #newyorkpic {
     position: relative;
-    bottom: 306px;
-    left: 380px;
+    bottom: 505px;
+    left: 900px;
 }

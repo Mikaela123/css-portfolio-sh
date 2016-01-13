@@ -1,35 +1,29 @@
 // JavaScript File
-var bahamas = document.getElementById("bahamas");
-var jerusalem = document.getElementById("jerusalem");
+var greece = document.getElementById("greece");
+var israel = document.getElementById("israel");
 var newyork = document.getElementById("newyork");
 var barcelona = document.getElementById("barcelona");
-var greece = document.getElementById("greece");
-var bahamasinfo = document.getElementById("bahamasinfo");
-var jerusaleminfo = document.getElementById("jerusaleminfo");
+var greeceinfo = document.getElementById("greeceinfo");
+var israelinfo = document.getElementById("israelinfo");
 var newyorkinfo = document.getElementById("newyorkinfo");
 var barcelonainfo = document.getElementById("barcelonainfo");
-var greeceinfo = document.getElementById("greeceinfo");
 
-bahamas.addEventListener("click", function(){
-    bahamasinfo.innerHTML = "Location: North America<br>Capital: Nassau<br>Popuation: 377,374<br>Activities: Boating, Diving, Fishing, Private Flying, Sightseeing, Sports, Pampering, Romantic Getaways, and MANY MORE<br>Come visit the Bahamas where you will have the most memorable and ";
+greece.addEventListener("click", function(){
+    greeceinfo.innerHTML = "Location: Southeastern Europe<br>Capital: Athens<br>Popuation: 11.03million<br>Activities: Beaches, Hiking, Sightseeing, Museums, Boating, Swimming";
 });
             
-jerusalem.addEventListener("click", function(){
-    jerusaleminfo.innerHTML = "Location: North America<br>Capital: Nassau<br>Popuation: 377,374<br>Activities: Boating, Diving, Fishing, Private Flying, Sightseeing, Sports, Pampering, Romantic Getaways, and MANY MORE";
+israel.addEventListener("click", function(){
+    israelinfo.innerHTML = "Location: Middle Eastern city west of the Dead Sea<br>Capital: Jerusalem<br>Popuation: 809,112<br>Activities: ";
     info2.innerHTML = "Item 2 other stuff";
 });
 
 newyork.addEventListener("click", function(){
-    newyorkinfo.innerHTML = "Location: North America<br>Capital: Nassau<br>Popuation: 377,374<br>Activities: Boating, Diving, Fishing, Private Flying, Sightseeing, Sports, Pampering, Romantic Getaways, and MANY MORE";
+    newyorkinfo.innerHTML = "Location: Eastern part of the US<br>Capital: New York City<br>Popuation: 8.406 million<br>Activities: ";
     info2.innerHTML = "Item 2 other stuff";
 });
 
 barcelona.addEventListener("click", function(){
-    barcelonainfo.innerHTML = "Location: North America<br>Capital: Nassau<br>Popuation: 377,374<br>Activities: Boating, Diving, Fishing, Private Flying, Sightseeing, Sports, Pampering, Romantic Getaways, and MANY MORE";
+    barcelonainfo.innerHTML = "Location: Europe’s Iberian Peninsula<br>Capital: Madrid<br>Popuation: 46.77 million<br>Activities: ";
     info2.innerHTML = "Item 2 other stuff";
 });
 
-greece.addEventListener("click", function(){
-    greeceinfo.innerHTML = "Location: North America<br>Capital: Nassau<br>Popuation: 377,374<br>Activities: Boating, Diving, Fishing, Private Flying, Sightseeing, Sports, Pampering, Romantic Getaways, and MANY MORE";
-    info2.innerHTML = "Item 2 other stuff";
-});
