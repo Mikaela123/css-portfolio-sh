@@ -37,7 +37,7 @@ h1 {
     height: 50px;
 }
 .numbers {
-    background-color: pink;
+    background-color: magenta;
     font-family: sans-serif;
     font-size: 20px;
     height: 50px;
@@ -48,10 +48,16 @@ h1 {
     height: 200px;
 }
 .months {
-    background-color: pink;
+    background-color: magenta;
     font-family: sans-serif;
     font-size: 17px;
     height: 50px;
+}
 
-
+#fortuneButton {
+    background-color: gray;
+    font-family: sans-serif;
+    font-size: 20px;
+    height: 100px;
+    border: blue solid;
 }

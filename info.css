@@ -19,6 +19,7 @@ h2 {
 img {
     transition: .5s all linear;
     border: solid black;
+    margin-left: 40px;
 }
 img:hover {
     width: 300px;
@@ -37,12 +38,12 @@ img:hover {
 
 #barcelonapic {
     position: relative;
-    bottom: 756px;
-    left: 600px;
+    bottom: 765px;
+    left: 900px;
 }
 
 #newyorkpic {
     position: relative;
-    bottom: 505px;
-    left: 900px;
+    bottom: 510px;
+    left: 600px;
 }
