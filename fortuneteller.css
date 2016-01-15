@@ -54,10 +54,9 @@ h1 {
     height: 50px;
 }
 
-#fortuneButton {
-    background-color: gray;
+.fortuneButton {
+    background-color: pink;
     font-family: sans-serif;
-    font-size: 20px;
-    height: 100px;
     border: blue solid;
-}
+    font-size: 20px;
+    height: 100px;}
