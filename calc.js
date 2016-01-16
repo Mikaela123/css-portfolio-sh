@@ -36,7 +36,7 @@ function doMath() {
         display.innerHTML = answer;
     }
     if (dropdown.value == "sqrt"){
-        answer = Math.sqrt(input1.value);
+        answer = Math.sqrt(input2.value);
         display.innerHTML = answer;
     }
 }

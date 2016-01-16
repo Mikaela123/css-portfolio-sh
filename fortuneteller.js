@@ -1,14 +1,12 @@
 // Javascript File
-var fortuneButton = document.getElementsById("fortuneButton");
-var fortuneButtonInfo = document.getElementsById("fortuneButtonInfo");
 
-//Thisnis for the color buttons so that it knows that you have already chosen one of the buttons of the question
+//This is for the color buttons so that it knows that you have already chosen one of the buttons of the question
 var pickedColor;
 var hasColor = false;
 var colors = document.querySelectorAll("input.colors");
 for(var i = 0; i < colors.length; i++){
     colors[i].addEventListener("click", function (evt){
-
+//the if statement is so that the user can only choose one answer for each question
     if(!hasColor){
         pickedColor = evt.target.value;       
         evt.target.style.border = "solid black 2px";
@@ -64,14 +62,19 @@ for(var i = 0; i < months.length; i++){
 }
 //This for the Fortune Button, this button will allow the user receive the fortune they have been waiting for.
 var pickedFortuneButton;
+var fortuneButtonAnswer = document.getElementById("fortuneButtonAnswer");
 var fortuneButton = document.querySelectorAll("input.fortuneButton");
 for(var i = 0; i < months.length; i++){
     fortuneButton[i].addEventListener("click", function (evt){
         
         evt.target.style.color = "green";
+        fortuneButtonAnswer.innerHTML = "A beautiful, smart, and loving person will be coming into your life.";
     });
 }
 
-fortuneButton.addEventListener("click", function(){
-    fortuneButtonInfo.innerHTML = "A beautiful, smart, and loving person will be coming into your life.";
-});
+
+
+
+
+
+
