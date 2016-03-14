@@ -55,6 +55,7 @@ img:hover {
     color: white;
     margin-left: 50px;
     margin-right: 150px;
+    text-indent: 50px;
 }
 
 #newyorkinfo {
@@ -64,6 +65,7 @@ img:hover {
     color: white;
     margin-left: 50px;
     margin-right: 150px;
+    text-indent: 50px;
 }
 
 #israelinfo {
@@ -73,6 +75,7 @@ img:hover {
     color: white;
     margin-left: 50px;
     margin-right: 150px;
+    text-indent: 50px;
 }
 
 #greeceinfo {
@@ -82,4 +85,5 @@ img:hover {
     color: white;
     margin-left: 50px;
     margin-right: 150px;
+    text-indent: 50px;
 }
