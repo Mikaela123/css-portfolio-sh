@@ -48,7 +48,7 @@ img:hover {
     left: 600px;
 }
 
-#barcelonainfo {
+#info4 {
     position: relative;
     bottom: 725px;
     font-family: sans-serif;
@@ -58,7 +58,7 @@ img:hover {
     text-indent: 50px;
 }
 
-#newyorkinfo {
+#info3 {
     position: relative;
     bottom: 725px;
     font-family: sans-serif;
@@ -68,7 +68,7 @@ img:hover {
     text-indent: 50px;
 }
 
-#israelinfo {
+#info2 {
     position: relative;
     bottom: 725px;
     font-family: sans-serif;
@@ -78,12 +78,11 @@ img:hover {
     text-indent: 50px;
 }
 
-#greeceinfo {
+#info1 {
     position: relative;
     bottom: 725px;
     font-family: sans-serif;
-    color: white;
-    margin-left: 50px;
-    margin-right: 150px;
+    color: blue;
     text-indent: 50px;
+    font-size: 50px
 }
