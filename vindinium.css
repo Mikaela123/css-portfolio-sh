@@ -1,0 +1,14 @@
+body {
+    background-color: gray;
+    color: white;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: sans-serif; 
+    border-bottom: solid;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: center;
+    color: red;
+}
