@@ -3,7 +3,6 @@ body {
     color: white;
     font-family: sans-serif;
 }
-
 h1 {
     font-family: sans-serif; 
     border-bottom: solid;
@@ -12,30 +11,109 @@ h1 {
     text-align: center;
     color: red;
 }
-
-#red {
+.red {
     background-color: red;
 }
-#orange {
+.orange {
     background-color: orange;
 }
-#yellow {
+.yellow {
     background-color: yellow;
 }
-#green {
+.green {
     background-color: green;
 }
-#blue {
+.blue {
     background-color: blue;
 }
-#purple {
+.purple {
     background-color: purple;
 }
-#pink {
+.pink {
     background-color: magenta;
 }
-#turquoise {
-    background-color: turquoise
+.turquoise {
+    background-color: turquoise;
+}
+#hatbutton {
+    margin-left: 20px;
+}
+#dressbutton {
+    margin-left: 20px;
+}
+#shoesbutton {
+    margin-left: 20px;
+}
+#yellowhat {
+    position: relative;
+    right: 158px;
+    background-color: gray;
+}
+#pinkhat{
+    background-color: gray;
+}
+#purplehat {
+    position: relative;
+    right: 314px;
+    background-color: gray
+}
+#reddress {
+    position: relative;
+    left: 83px;
+    background-color: gray
+}
+#orangedress {
+    position: relative;
+    right: 124px;
+    background-color: gray
+}
+#yellowdress {
+    position: relative;
+    right: 330px;
+    background-color: gray
+}
+#greendress {
+    position: relative;
+    right: 538px;
+    background-color: gray
+}
+#bluedress {
+    position: relative;
+    right: 745px;
+    background-color: gray
+}
+#purpledress {
+    position: relative;
+    right: 951px;
+    background-color: gray
+}
+#redshoes {
+    position: relative;
+    left: 130px;
+    background-color: gray
+}
+#greenshoes {
+    position: relative;
+    left: 55px;
+    background-color: gray
+}
+#turquoiseshoes {
+    position: relative;
+    right: 34px;
+    background-color: gray
+}
+#purpleshoes {
+    position: relative;
+    right: 112px;
+    background-color: gray
+}
+#outfit {
+    position: relative;
+    bottom: 300px;
+    left: 600px;
+}
+.hat {
+    margin-left: 90px;
 }
 .colors {
     font-family: sans-serif;
