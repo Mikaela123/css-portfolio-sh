@@ -73,7 +73,7 @@ dress6.addEventListener("click", function(){
 
 shoes1.addEventListener("click", function(){
     shoesimage1.innerHTML = " ";
-    shoesimage2.innerHTML = "<img src='http://www.clipartlord.com/wp-content/uploads/2014/05/high-heel-shoes5.png' alt='red shoes' width='75px' class='dress' id='redshoes'>"
+    shoesimage2.innerHTML = "<img src='http://www.clipartlord.com/wp-content/uploads/2014/05/high-heel-shoes5.png' alt='red shoes' width='75px' class='shoes' id='redshoes'>"
 });
 
 shoes2.addEventListener("click", function(){
@@ -88,5 +88,5 @@ shoes3.addEventListener("click", function(){
 
 shoes4.addEventListener("click", function(){
     shoesimage1.innerHTML = " ";
-    shoesimage2.innerHTML = "<img src='http://images.clipshrine.com/download/wheel/large-Red-Shoe-66.6-14061.png' alt='purple shoes' width='75px'  id='purpleshoes'>"
+    shoesimage2.innerHTML = "<img src='http://images.clipshrine.com/download/wheel/large-Red-Shoe-66.6-14061.png' alt='purple shoes' width='75px'  class='shoes' id='purpleshoes'>"
 });

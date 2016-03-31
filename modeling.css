@@ -46,8 +46,18 @@ h1 {
 }
 .hat {
     position: relative;
-    bottom: 850px;
+    bottom: 835px;
     left: 850px;
+}
+.dress {
+    position: relative;
+    bottom: 828px;
+    left: 830px;
+}
+.shoes {
+    position: relative;
+    bottom: 820px;
+    left: 900px;
 }
 #hatbutton {
     margin-left: 20px;
