@@ -1,8 +1,92 @@
 // JavaScript File
-var pink_h= document.getElementById("pink_h");
+var hat1= document.getElementById("hat1");
+var hat2= document.getElementById("hat2");
+var hat3= document.getElementById("hat3");
 
-var pinkhat= document.getElementById("pinkhat");
+var hatimage1= document.getElementById("hatimage1");
+var hatimage2= document.getElementById("hatimage2");
 
-pink_h.addEventListener("click", function(){
-    pinkhat.innerHTML = pinkhat
-    
+
+var dress1= document.getElementById("dress1");
+var dress2= document.getElementById("dress2");
+var dress3= document.getElementById("dress3");
+var dress4= document.getElementById("dress4");
+var dress5= document.getElementById("dress5");
+var dress6= document.getElementById("dress6");
+
+var dressimage1= document.getElementById("dressimage1");
+var dressimage2= document.getElementById("dressimage2");
+
+var shoes1= document.getElementById("shoes1");
+var shoes2= document.getElementById("shoes2");
+var shoes3= document.getElementById("shoes3");
+var shoes4= document.getElementById("shoes4");
+
+var shoesimage1= document.getElementById("shoesimage1");
+var shoesimage2= document.getElementById("shoesimage2");
+
+
+hat1.addEventListener("click", function(){
+    hatimage1.innerHTML = " ";
+    hatimage2.innerHTML = "<img src='http://content.mycutegraphics.com/graphics/clothing/girls-hat-pink-bow.png' alt='pink hat' width='150px' class='hat' id='pinkhat'>"
+});
+
+hat2.addEventListener("click", function(){
+    hatimage1.innerHTML = " ";
+    hatimage2.innerHTML = "<img src='http://www.cutecliparts.com/wp-content/uploads/2015/08/Yellow-Girls-Hat-Clip-Art.png' alt='yellow hat' width=150px' class='hat' id='yellowhat'>"
+});
+
+hat3.addEventListener("click", function(){
+    hatimage1.innerHTML = " ";
+    hatimage2.innerHTML = "<img src='http://www.cliparthut.com/clip-arts/307/girl-hat-clip-art-307589.png' alt='purple hat' width='150px' class='hat' id='purplehat'>"
+});
+
+dress1.addEventListener("click", function(){
+    dressimage1.innerHTML = " ";
+    dressimage2.innerHTML = "<img src='http://images.clipartpanda.com/tango-clipart-red-dress-md.png' alt='red dress' width='200px' class='dress' id='reddress'>"
+});
+
+dress2.addEventListener("click", function(){
+    dressimage1.innerHTML = " ";
+    dressimage2.innerHTML = "<img src='http://cliparts.co/cliparts/pT7/8yk/pT78yk68c.png' alt='orange dress' width='200px' class='dress' id='orangedress'>"
+});
+
+dress3.addEventListener("click", function(){
+    dressimage1.innerHTML = " ";
+    dressimage2.innerHTML = "<img src='http://www.cliparthut.com/clip-arts/118/yellow-dress-clip-art-118114.png' alt='yellow dress' width='200px' class='dress' id='yellowdress'>"
+});
+
+dress4.addEventListener("click", function(){
+    dressimage1.innerHTML = " ";
+    dressimage2.innerHTML = "<img src='http://images.clipartpanda.com/green-dress-clipart-green-dress-md.png' alt='green dress' width='200px' class='dress' id='greendress'>"
+});
+
+dress5.addEventListener("click", function(){
+    dressimage1.innerHTML = " ";
+    dressimage2.innerHTML = "<img src='http://www.cliparthut.com/clip-arts/255/dress-clip-art-255104.png' alt='blue dress' width='200px' class='dress' id='bluedress'>"
+});
+
+dress6.addEventListener("click", function(){
+    dressimage1.innerHTML = " ";
+    dressimage2.innerHTML = "<img src='http://www.clker.com/cliparts/q/E/4/r/Q/L/purple-dress-md.png' alt='purple dress' width='200px' class='dress' id='purpledress'>"
+});
+
+shoes1.addEventListener("click", function(){
+    shoesimage1.innerHTML = " ";
+    shoesimage2.innerHTML = "<img src='http://www.clipartlord.com/wp-content/uploads/2014/05/high-heel-shoes5.png' alt='red shoes' width='75px' class='dress' id='redshoes'>"
+});
+
+shoes2.addEventListener("click", function(){
+    shoesimage1.innerHTML = " ";
+    shoesimage2.innerHTML = "<img src='http://images.clipshrine.com/download/wheel/medium-High-Heels-Woman-Shoe-Fashion-166.6-14061.png' alt='green shoes' width='75px' class='shoes' id='greenshoes'>"
+});
+
+shoes3.addEventListener("click", function(){
+    shoesimage1.innerHTML = " ";
+    shoesimage2.innerHTML = "<img src='http://images.clipshrine.com/wheel/thumb-High-Heels-Woman-Shoe-Fashion-0-14061.png' alt='turqiouse shoes' width='75px' class='shoes' id='turquoiseshoes'>"
+});
+
+shoes4.addEventListener("click", function(){
+    shoesimage1.innerHTML = " ";
+    shoesimage2.innerHTML = "<img src='http://images.clipshrine.com/download/wheel/large-Red-Shoe-66.6-14061.png' alt='purple shoes' width='75px'  id='purpleshoes'>"
+});
