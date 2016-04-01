@@ -25,6 +25,11 @@ var shoes4= document.getElementById("shoes4");
 var shoesimage1= document.getElementById("shoesimage1");
 var shoesimage2= document.getElementById("shoesimage2");
 
+var info= document.getElementById("info");
+
+var info1= document.getElementById("info1");
+var info2= document.getElementById("info2");
+
 
 hat1.addEventListener("click", function(){
     hatimage1.innerHTML = " ";
@@ -89,4 +94,9 @@ shoes3.addEventListener("click", function(){
 shoes4.addEventListener("click", function(){
     shoesimage1.innerHTML = " ";
     shoesimage2.innerHTML = "<img src='http://images.clipshrine.com/download/wheel/large-Red-Shoe-66.6-14061.png' alt='purple shoes' width='75px'  class='shoes' id='purpleshoes'>"
+});
+
+info.addEventListener("click", function(){
+    info1.innerHTML = "Why Did You Choose That Combination of Colors?";
+    info2.innerHTML = "Color choices are connected to emotional responses that doesn't have a valid explanation as to why. The powerful influence of color impacts our choices in everything from choice of food, clothes, cars.";
 });
