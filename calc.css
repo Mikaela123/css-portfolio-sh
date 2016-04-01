@@ -8,21 +8,30 @@
     text-align:center;
 }
 #input1{
-    border: solid 1px;
+    border: solid 2px;
+    border-color: blue;
+    height: 30px;
+    font-size: 30px;
     
 }
 #dropdown{
     border: solid 1px;
     color: maroon;
+    background-color: white;
+    font-weight: bold;
 }
 #input2{
-    border: solid 1px;
+    border: solid 2px;
+    border-color: blue;
+    height: 30px;
+    font-size: 30px;
 }
 #submitButton{
     font-family: sans-serif;
     font-size: 15px;
     background-color: orange;
-    border: solid 1px;
+    border: solid 2px;
+    height: 30px;
 }
 h1{
    font-family: sans-serif; 
