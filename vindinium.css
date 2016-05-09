@@ -12,3 +12,12 @@ h1 {
     text-align: center;
     color: red;
 }
+
+h2 {
+    font-family: sans-serif;
+    border-bottom: solid;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+    color: white;
+}
