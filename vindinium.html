@@ -33,7 +33,11 @@ Bot.prototype.botBrain = function() {
         _this = bot;
          //////* Write your bot below Here *//////
         //////* Set `myDir` in the direction you want to go and then bot.goDir is set to myDir at the bottom *////////
-
+        </pre>
+        </code>
+    
+        <pre id="globaldata">
+        <code>
         /*                                      *
          * This Code is global data!            *
          *                                      */
@@ -61,7 +65,11 @@ Bot.prototype.botBrain = function() {
             closestBot = enemyBots[i];
             }
         }
-
+        </pre>
+        </code>
+        
+        <pre id="whattodo">
+        <code>
         /*                                      *
          * This Code Decides WHAT to do         *
          *                                      */
@@ -80,7 +88,11 @@ Bot.prototype.botBrain = function() {
         if (Bot.yourBot.life < 50) {
             task = "attackmines";
         } 
+        </pre>
+        </code>
         
+        <pre id="howtodo">
+        <code>
         /*                                      *
          * This Code Determines HOW to do it    *
          *                                      */
@@ -135,7 +147,11 @@ Bot.prototype.botBrain = function() {
         } else {
             bot.goDir = myDir;
         }
+        </pre>
+        </code>
         
+        <pre>
+        <code>
         ///////////* DON'T REMOVE ANTYTHING BELOW THIS LINE *//////////////
         resolve();
     });
@@ -145,7 +161,7 @@ bot.runGame(); ,8
     </code>
     
     <h2> This Code is global data!</h2>
-    <pre>
+    <pre id="globaldata">
     <code>
         /*                                      *
          * This Code is global data!            *
@@ -177,8 +193,10 @@ bot.runGame(); ,8
     </pre>
     </code>
     
+    <h3> Information</h3>
+    
     <h2> This Code Decides WHAT to do</h2>
-    <pre> 
+    <pre id="whattodo"> 
     <code>
         /*                                      *
          * This Code Decides WHAT to do         *
@@ -201,8 +219,10 @@ bot.runGame(); ,8
     </code>
     </pre>
     
+    <h3> Information</h3>
+    
     <h2> This Code Determines HOW to do it</h2>
-    <pre>
+    <pre id="howtodo">
     <code> 
     /*                                      *
          * This Code Determines HOW to do it    *
@@ -261,6 +281,7 @@ bot.runGame(); ,8
     </pre>
     </code>
     
+    <h3> Information</h3>
     
 </body>
 </html>
