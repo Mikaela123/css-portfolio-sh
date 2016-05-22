@@ -20,7 +20,7 @@
     <h2>
         Below is the code I made to function my bot.
     </h2>
-    <pre>
+    <pre id="black">
     <code>
         var Bot = require('bot');
 var PF = require('pathfinding');
@@ -150,7 +150,7 @@ Bot.prototype.botBrain = function() {
         </pre>
         </code>
         
-        <pre>
+        <pre id="black">
         <code>
         ///////////* DON'T REMOVE ANTYTHING BELOW THIS LINE *//////////////
         resolve();
@@ -194,6 +194,7 @@ bot.runGame(); ,8
     </code>
     
     <h3> Information</h3>
+    <p> In this portion of my code it is showing a various codes to function my bot. The first 4 "if" statements are showing where all the other enemy bots are located in the game so if I were to ever attack an enemy bot I will be able to locate where they are. As well as showing me where other bots are in the game the next 4 "if" statements show me where mines are located in order for me to collect coins. Below those "if" statements is a var statment for my bot to attack enemy bots closest to me. </p> 
     
     <h2> This Code Decides WHAT to do</h2>
     <pre id="whattodo"> 
@@ -220,6 +221,7 @@ bot.runGame(); ,8
     </pre>
     
     <h3> Information</h3>
+    <p> This section of the code is to determine which functions will occur depending on how well I am doing in the game. The three function I created for my bot is to go to taverns, attack enemy bots, and attack mines. For my bot to go to taverns, I have programmed it to go to a tavern when my bot life was under 40. Next is attacking enemy bots and I have programmed my bot to attack any other bots in the game. Last, is attacking mines and I have programmed my bot to attack a mine for gold only when my bot life was more than 50.  </p>
     
     <h2> This Code Determines HOW to do it</h2>
     <pre id="howtodo">
@@ -282,6 +284,10 @@ bot.runGame(); ,8
     </code>
     
     <h3> Information</h3>
+    <p> The last section of my code is allowing my bot's function to work on other bots efficiently and effectively. For each function which is going to taverns, attacking enemy bots, and attacking mines. In all these If statements above are each dedicated to a specific function I created. First, the "if" statement tells the computer its specific task (my functions) Next, I will tell the computer to attack or go to the closest tavern, bot or mine. Last, the "console log", located at the bottom of every "if" statement, activates the "if" statment linked to it.  </p>
+    
+    <h2> What Did I Learn</h2>
+    <p> I enjoyed this AI experience because I learned how to be patient and to never give up. I struggled with these two skills before this project and have improved them after becasue it was challenging and fun. </p>
     
 </body>
 </html>
