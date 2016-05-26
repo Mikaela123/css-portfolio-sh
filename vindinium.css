@@ -22,6 +22,19 @@ h2 {
     text-align: center;
     color: black;
 }
+h3 {
+    text-align: center;
+    border-bottom: solid;
+    margin-left: 430px;
+    margin-right: 430px;
+}
+p {
+    text-indent: 30px;
+}
+img {
+    position: relative;
+    left: 500px;
+}
 #globaldata {
     color: red
 }
@@ -33,4 +46,8 @@ h2 {
 }
 #black {
     color: black;
+}
+.info {
+    margin-right: 150px;
+    margin-left: 150px;
 }
