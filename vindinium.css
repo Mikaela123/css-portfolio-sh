@@ -33,10 +33,15 @@ p {
 }
 img {
     position: relative;
-    left: 500px;
+    left: 400px;
+}
+pre {
+    margin-right: 170px;
+    margin-left: 60px;
 }
 #globaldata {
     color: red
+    
 }
 #whattodo{
     color: yellow;
