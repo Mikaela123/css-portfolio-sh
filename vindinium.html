@@ -15,6 +15,7 @@
             <li><a href="vindinium.html">Vindinium</a></li>
             <li><a href="modeling.html">Modeling</a></li>
         </ul>
+        
     <h1> Vindinium</h1>
     <br>
     <h2> What is Vindinium?</h2>
@@ -22,8 +23,9 @@
     <img src="http://img.linuxfr.org/img/687474703a2f2f73642d33333239342e64656469626f782e66722f7e6a6f656c2f76696e64696e69756d2e706e67/vindinium.png" alt="vindiniumpic" width="500px" id="vidpic">
     <br>
     <br>
-    <h2>Below is the code I made to function my bot.</h2>
-    <pre id="black">
+    <h2> Below is the code I made to function my bot.</h2>
+    <p id="colorcode">*I have color coded each section to easier explain them.<br> <p id="red">Red: This is Global Data</p><p id="yellow">Yellow: This Code Decides WHAT to do</p><p id="blue">Blue: This Code Determines HOW to do it</p><p id="green2">Green: Information</p></p>
+    <pre>
     <code>
         var Bot = require('bot');
 var PF = require('pathfinding');
@@ -153,7 +155,7 @@ Bot.prototype.botBrain = function() {
         </pre>
         </code>
         
-        <pre id="black">
+        <pre>
         <code>
         ///////////* DON'T REMOVE ANTYTHING BELOW THIS LINE *//////////////
         resolve();
@@ -196,7 +198,7 @@ bot.runGame(); ,8
     </pre>
     </code>
     <h3> Information</h3>
-    <p class="info"> In this portion of my code it is showing a various codes to function my bot. The first 4 "if" statements are showing where all the other enemy bots are located in the game so if I were to ever attack an enemy bot I will be able to locate where they are. As well as showing me where other bots are in the game the next 4 "if" statements show me where mines are located in order for me to collect coins. Below those "if" statements is a var statment for my bot to attack enemy bots closest to me. </p> 
+    <p class="info green"> In this portion of my code it is showing a various codes to function my bot. The first 4 "if" statements are showing where all the other enemy bots are located in the game so if I were to ever attack an enemy bot I will be able to locate where they are. As well as showing me where other bots are in the game the next 4 "if" statements show me where mines are located in order for me to collect coins. Below those "if" statements is a var statment for my bot to attack enemy bots closest to me. </p> 
     <br>
     <h2> This Code Decides WHAT to do</h2>
     <pre id="whattodo"> 
@@ -223,7 +225,7 @@ bot.runGame(); ,8
     </pre>
     
     <h3> Information</h3>
-    <p class="info"> This section of the code is to determine which functions will occur depending on how well I am doing in the game. The three function I created for my bot is to go to taverns, attack enemy bots, and attack mines. For my bot to go to taverns, I have programmed it to go to a tavern when my bot life was under 40. Next is attacking enemy bots and I have programmed my bot to attack any other bots in the game. Last, is attacking mines and I have programmed my bot to attack a mine for gold only when my bot life was more than 50.  </p>
+    <p class="info green"> This section of the code is to determine which functions will occur depending on how well I am doing in the game. The three function I created for my bot is to go to taverns, attack enemy bots, and attack mines. For my bot to go to taverns, I have programmed it to go to a tavern when my bot life was under 40. Next is attacking enemy bots and I have programmed my bot to attack any other bots in the game. Last, is attacking mines and I have programmed my bot to attack a mine for gold only when my bot life was more than 50.  </p>
     <br>
     <h2> This Code Determines HOW to do it</h2>
     <pre id="howtodo">
@@ -286,9 +288,9 @@ bot.runGame(); ,8
     </code>
     
     <h3> Information</h3>
-    <p class="info"> The last section of my code is allowing my bot's function to work on other bots efficiently and effectively. For each function which is going to taverns, attacking enemy bots, and attacking mines. In all these If statements above are each dedicated to a specific function I created. First, the "if" statement tells the computer its specific task (my functions) Next, I will tell the computer to attack or go to the closest tavern, bot or mine. Last, the "console log", located at the bottom of every "if" statement, activates the "if" statment linked to it.</p>
+    <p class="info green"> The last section of my code is allowing my bot's function to work on other bots efficiently and effectively. For each function which is going to taverns, attacking enemy bots, and attacking mines. In all these If statements above are each dedicated to a specific function I created. First, the "if" statement tells the computer its specific task (my functions) Next, I will tell the computer to attack or go to the closest tavern, bot or mine. Last, the "console log", located at the bottom of every "if" statement, activates the "if" statment linked to it.</p>
     <br>
-    <h2> What Did I Learn</h2>
+    <h2> What I Learned</h2>
     <p class="info"> I enjoyed this AI experience because I learned how to be patient and to never give up. I struggled with these two skills before this project and have immensely improved in them after becasue it was challenging and fun prjoct for me to learn from. I found programming my own bot to be complicated because I was unfamiliar with the differnet codes, but I eventually was able to better understand how to program the bot through support from my peers and teacher. After programming my bot to perform different function I now understand how much coding and modifying you need to do to have your bot perform a simple task. Overall, I enjoyed this project because I was able to learn new things and had fun doing it.</p>
     
 </body>

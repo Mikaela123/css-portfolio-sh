@@ -24,9 +24,9 @@ h2 {
 }
 h3 {
     text-align: center;
-    border-bottom: solid;
     margin-left: 430px;
     margin-right: 430px;
+    color: black;
 }
 p {
     text-indent: 30px;
@@ -39,20 +39,41 @@ pre {
     margin-right: 170px;
     margin-left: 60px;
 }
+
 #globaldata {
     color: red
-    
 }
+
 #whattodo{
     color: yellow;
 }
+
 #howtodo {
     color: blue;
 }
-#black {
-    color: black;
+#colorcode{
+    text-align: center;
+}
+#red {
+    color: red;
+    text-align: center;
+}
+#yellow {
+    color: yellow;
+    text-align: center;
+}
+#blue {
+    color: blue;
+    text-align: center;
+}
+#green2 {
+    color: green;
+    text-align: center;
 }
 .info {
     margin-right: 150px;
     margin-left: 150px;
+}
+.green{
+    color: green;
 }
