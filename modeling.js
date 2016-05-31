@@ -33,67 +33,67 @@ var info2= document.getElementById("info2");
 
 hat1.addEventListener("click", function(){
     hatimage1.innerHTML = " ";
-    hatimage2.innerHTML = "<img src='http://content.mycutegraphics.com/graphics/clothing/girls-hat-pink-bow.png' alt='pink hat' width='150px' class='hat' id='pinkhat'>"
+    hatimage2.innerHTML = "<img src='http://content.mycutegraphics.com/graphics/clothing/girls-hat-pink-bow.png' alt='pink hat' width='150px' class='hat' id='pinkhat'>";
 });
 
 hat2.addEventListener("click", function(){
     hatimage1.innerHTML = " ";
-    hatimage2.innerHTML = "<img src='http://www.cutecliparts.com/wp-content/uploads/2015/08/Yellow-Girls-Hat-Clip-Art.png' alt='yellow hat' width=150px' class='hat' id='yellowhat'>"
+    hatimage2.innerHTML = "<img src='http://content.mycutegraphics.com/graphics/clothing/girls-hat-yellow-blue-bow.png' alt='yellow hat' width=150px' class='hat' id='yellowhat'>";
 });
 
 hat3.addEventListener("click", function(){
     hatimage1.innerHTML = " ";
-    hatimage2.innerHTML = "<img src='http://www.cliparthut.com/clip-arts/307/girl-hat-clip-art-307589.png' alt='purple hat' width='150px' class='hat' id='purplehat'>"
+    hatimage2.innerHTML = "<img src='http://www.cliparthut.com/clip-arts/307/girl-hat-clip-art-307589.png' alt='purple hat' width='150px' class='hat' id='purplehat'>";
 });
 
 dress1.addEventListener("click", function(){
     dressimage1.innerHTML = " ";
-    dressimage2.innerHTML = "<img src='http://images.clipartpanda.com/tango-clipart-red-dress-md.png' alt='red dress' width='200px' class='dress' id='reddress'>"
+    dressimage2.innerHTML = "<img src='http://images.clipartpanda.com/tango-clipart-red-dress-md.png' alt='red dress' width='200px' class='dress' id='reddress'>";
 });
 
 dress2.addEventListener("click", function(){
     dressimage1.innerHTML = " ";
-    dressimage2.innerHTML = "<img src='http://cliparts.co/cliparts/pT7/8yk/pT78yk68c.png' alt='orange dress' width='200px' class='dress' id='orangedress'>"
+    dressimage2.innerHTML = "<img src='http://cliparts.co/cliparts/pT7/8yk/pT78yk68c.png' alt='orange dress' width='200px' class='dress' id='orangedress'>";
 });
 
 dress3.addEventListener("click", function(){
     dressimage1.innerHTML = " ";
-    dressimage2.innerHTML = "<img src='http://www.cliparthut.com/clip-arts/118/yellow-dress-clip-art-118114.png' alt='yellow dress' width='200px' class='dress' id='yellowdress'>"
+    dressimage2.innerHTML = "<img src='http://www.cliparthut.com/clip-arts/118/yellow-dress-clip-art-118114.png' alt='yellow dress' width='200px' class='dress' id='yellowdress'>";
 });
 
 dress4.addEventListener("click", function(){
     dressimage1.innerHTML = " ";
-    dressimage2.innerHTML = "<img src='http://images.clipartpanda.com/green-dress-clipart-green-dress-md.png' alt='green dress' width='200px' class='dress' id='greendress'>"
+    dressimage2.innerHTML = "<img src='http://images.clipartpanda.com/green-dress-clipart-green-dress-md.png' alt='green dress' width='200px' class='dress' id='greendress'>";
 });
 
 dress5.addEventListener("click", function(){
     dressimage1.innerHTML = " ";
-    dressimage2.innerHTML = "<img src='http://www.cliparthut.com/clip-arts/255/dress-clip-art-255104.png' alt='blue dress' width='200px' class='dress' id='bluedress'>"
+    dressimage2.innerHTML = "<img src='http://www.cliparthut.com/clip-arts/255/dress-clip-art-255104.png' alt='blue dress' width='200px' class='dress' id='bluedress'>";
 });
 
 dress6.addEventListener("click", function(){
     dressimage1.innerHTML = " ";
-    dressimage2.innerHTML = "<img src='http://www.clker.com/cliparts/q/E/4/r/Q/L/purple-dress-md.png' alt='purple dress' width='200px' class='dress' id='purpledress'>"
+    dressimage2.innerHTML = "<img src='http://www.clker.com/cliparts/q/E/4/r/Q/L/purple-dress-md.png' alt='purple dress' width='200px' class='dress' id='purpledress'>";
 });
 
 shoes1.addEventListener("click", function(){
     shoesimage1.innerHTML = " ";
-    shoesimage2.innerHTML = "<img src='http://www.clipartlord.com/wp-content/uploads/2014/05/high-heel-shoes5.png' alt='red shoes' width='75px' class='shoes' id='redshoes'>"
+    shoesimage2.innerHTML = "<img src='http://www.clipartlord.com/wp-content/uploads/2014/05/high-heel-shoes5.png' alt='red shoes' width='75px' class='shoes' id='redshoes'>";
 });
 
 shoes2.addEventListener("click", function(){
     shoesimage1.innerHTML = " ";
-    shoesimage2.innerHTML = "<img src='http://images.clipshrine.com/download/wheel/medium-High-Heels-Woman-Shoe-Fashion-166.6-14061.png' alt='green shoes' width='75px' class='shoes' id='greenshoes'>"
+    shoesimage2.innerHTML = "<img src='http://images.clipshrine.com/download/wheel/medium-High-Heels-Woman-Shoe-Fashion-166.6-14061.png' alt='green shoes' width='75px' class='shoes' id='greenshoes'>";
 });
 
 shoes3.addEventListener("click", function(){
     shoesimage1.innerHTML = " ";
-    shoesimage2.innerHTML = "<img src='http://images.clipshrine.com/wheel/thumb-High-Heels-Woman-Shoe-Fashion-0-14061.png' alt='turqiouse shoes' width='75px' class='shoes' id='turquoiseshoes'>"
+    shoesimage2.innerHTML = "<img src='http://images.clipshrine.com/wheel/thumb-High-Heels-Woman-Shoe-Fashion-0-14061.png' alt='turqiouse shoes' width='75px' class='shoes' id='turquoiseshoes'>";
 });
 
 shoes4.addEventListener("click", function(){
     shoesimage1.innerHTML = " ";
-    shoesimage2.innerHTML = "<img src='http://images.clipshrine.com/download/wheel/large-Red-Shoe-66.6-14061.png' alt='purple shoes' width='75px'  class='shoes' id='purpleshoes'>"
+    shoesimage2.innerHTML = "<img src='http://images.clipshrine.com/download/wheel/large-Red-Shoe-66.6-14061.png' alt='purple shoes' width='75px'  class='shoes' id='purpleshoes'>";
 });
 
 info.addEventListener("click", function(){
