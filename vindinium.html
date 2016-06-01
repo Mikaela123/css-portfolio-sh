@@ -105,7 +105,7 @@ Bot.prototype.botBrain = function() {
         
         <pre id="howtodo">
         <code>
-         /*                                      *
+        /*                                      *
          * This Code Determines HOW to do it    *
          *                                      */
 
@@ -183,18 +183,20 @@ bot.runGame(); ,8
        
         var myDir;
         var myPos = [bot.yourBot.pos.x, bot.yourBot.pos.y];
-
+      
+      //this array keeps track of the other enemy bots in the game 
         var enemyBots = [];
         if(bot.yourBot.id != 1) enemyBots.push(bot.bot1);
         if(bot.yourBot.id != 2) enemyBots.push(bot.bot2);
         if(bot.yourBot.id != 3) enemyBots.push(bot.bot3);
         if(bot.yourBot.id != 4) enemyBots.push(bot.bot4);
         
+    //keeps track of where the mines are to collect coins
         var enemyMines = [];
-        if(bot.yourBot.id != 1) enemyMines.concat(bot.bot1mines);
-        if(bot.yourBot.id != 2) enemyMines.concat(bot.bot2mines);
-        if(bot.yourBot.id != 3) enemyMines.concat(bot.bot3mines);
-        if(bot.yourBot.id != 4) enemyMines.concat(bot.bot4mines);
+        if(bot.yourBot.id != 1) enemyMines= enemyMines.concat(bot.bot1mines);
+        if(bot.yourBot.id != 2) enemyMines= enemyMines.concat(bot.bot2mines);
+        if(bot.yourBot.id != 3) enemyMines= enemyMines.concat(bot.bot3mines);
+        if(bot.yourBot.id != 4) enemyMines= enemyMines.concat(bot.bot4mines);
         
        //this variable is for my bot to attack other enemy bots close to my bot
         var enemytoattack = enemyBots[0];
@@ -214,19 +216,23 @@ bot.runGame(); ,8
         /*                                      *
          * This Code Decides WHAT to do         *
          *                                      */
+        //all these statements are telling my bot at what time my bot should collect mines, go to taverns, or attack. 
         var task;
         
+        //in this statenemt I am telling my bot to go to a tavern when it's life is 40 or less to maintain my life span
         if (bot.yourBot.life < 40) {
             task = "taverns";
         } 
+        //this else if statement tells my bot to attack bots who have less amount of life than me
         else if(bot.yourBot.life > enemytoattack.life) {
             task = "attack";
         }
-        
+        //this else statment is telling my bot to constantly collect mines
         else {
             task = "freemines";
         }
-        if (Bot.yourBot.life < 50) {
+        //only to attack mines if I have a life of less than 50
+        if (bot.yourBot.life < 50) {
             task = "attackmines";
         } 
     </code>
@@ -238,11 +244,11 @@ bot.runGame(); ,8
     <h2> This Code Determines HOW to do it</h2>
     <pre id="howtodo">
     <code> 
-    /*                                      *
+        /*                                      *
          * This Code Determines HOW to do it    *
          *                                      */
 
-       //this if statment is for my bot to collect gold from the mines
+       //this if statment is for my bot to collect gold from the closest mines by finding the distance from all the mines 
         if(task === "freemines") {
             var closestMine = bot.freeMines[0];
             for(i = 0; i < bot.freeMines.length; i++) {
@@ -253,7 +259,7 @@ bot.runGame(); ,8
             console.log("Claiming a Free Mine!");
             myDir = bot.findPath(myPos, closestMine);
         }
-        //this if statment is used for my bot to go to the closest tavern so I can gain health
+        //this if statment is used for my bot to go to the closest tavern so I can gain health. 
         if (task === "taverns") {
             var closestTavern = bot.taverns[0];
             for(i = 0; i < bot.taverns.length; i++){
@@ -264,11 +270,12 @@ bot.runGame(); ,8
             console.log("Get Health!");
             myDir = bot.findPath(myPos, closestTavern);
         }
-        //this if statment is used for my bot to attack other bots near me
+        //this if statment is used for my bot to attack other bots near me by making my bot find the distance from other bots
          if(task === "attack") {
             console.log("Attack nearest Bot!");
             myDir = bot.findPath(myPos, [enemytoattack.pos.x, enemytoattack.pos.y]);
         }
+        //this statement is for my bot to attack the closest mines to it
           if (task === "attackmines") {
             var closestMines = bot.enemyMines[0];
             for(i = 0; i < bot.enemyMines.length; i++){
