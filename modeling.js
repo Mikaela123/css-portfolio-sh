@@ -1,16 +1,16 @@
 // JavaScript File
 
-//All these variables make up an array so the button the user chooses will correspond with the color and object the user chooses
+//All these variable statments make up an array so the button the user chooses will correspond with the color and object the user chooses
 //These 3 variables below are used for the 3 different colored buttons that correspond with the 3 different colored hats 
 var hat1= document.getElementById("hat1");
 var hat2= document.getElementById("hat2");
 var hat3= document.getElementById("hat3");
 
-//This variable will hold the various colored hats 
+//These variable statments will hold the various colored hats 
 var hatimage1= document.getElementById("hatimage1");
 var hatimage2= document.getElementById("hatimage2");
 
-//These 6 variables below are the 6 different buttons that represent the 6 different dress colors
+//These 6 variable statments below are the 6 different buttons that represent the 6 different dress colors
 var dress1= document.getElementById("dress1");
 var dress2= document.getElementById("dress2");
 var dress3= document.getElementById("dress3");
@@ -18,17 +18,17 @@ var dress4= document.getElementById("dress4");
 var dress5= document.getElementById("dress5");
 var dress6= document.getElementById("dress6");
 
-//this variable will hold the various colored dresses
+//this variable statments will hold the various colored dresses
 var dressimage1= document.getElementById("dressimage1");
 var dressimage2= document.getElementById("dressimage2");
 
-//4 variables below represent the different colored buttons that will represent the 4 different shoe colors
+//4 variable statments below represent the different colored buttons that will represent the 4 different shoe colors
 var shoes1= document.getElementById("shoes1");
 var shoes2= document.getElementById("shoes2");
 var shoes3= document.getElementById("shoes3");
 var shoes4= document.getElementById("shoes4");
 
-//these variables is the different colored shoes
+//these variable statments is the different colored shoes
 var shoesimage1= document.getElementById("shoesimage1");
 var shoesimage2= document.getElementById("shoesimage2");
 
