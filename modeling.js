@@ -1,4 +1,5 @@
 // JavaScript File
+//below I am making a variable 
 var hat1= document.getElementById("hat1");
 var hat2= document.getElementById("hat2");
 var hat3= document.getElementById("hat3");
