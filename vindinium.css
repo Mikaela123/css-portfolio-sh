@@ -38,6 +38,10 @@ img {
 pre {
     margin-right: 170px;
     margin-left: 60px;
+    font-size: 14px;
+}
+p {
+    font-size: 20px;
 }
 
 #globaldata {
